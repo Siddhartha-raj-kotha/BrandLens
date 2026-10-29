@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102c40" />
+  <meta name="description" content="BrandLens source-grounded brand governance prototype." />
+  <title>BrandLens — Brand Governance</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div><div class="brand-name">BrandLens</div><div class="brand-tagline">Brand governance</div></div>
+      </div>
+      <div class="workspace-label">WORKSPACE</div>
+      <button class="workspace-switch" type="button" aria-label="Demo workspace">
+        <span class="workspace-avatar">N</span><span class="workspace-copy"><b>Nexora Studio</b><small>Demo workspace</small></span><span class="chevron">⌄</span>
+      </button>
+      <nav class="nav-list" aria-label="Main navigation">
+        <button class="nav-item active" data-view="overview"><span class="nav-icon">◫</span><span>Overview</span></button>
+        <button class="nav-item" data-view="new-review"><span class="nav-icon">⌁</span><span>Review draft</span><span class="nav-add">+</span></button>
+        <button class="nav-item" data-view="claims"><span class="nav-icon">▤</span><span>Claims ledger</span></button>
+        <button class="nav-item" data-view="rules"><span class="nav-icon">☷</span><span>Rule library</span></button>
+        <button class="nav-item" data-view="insights"><span class="nav-icon">⌘</span><span>Insights & audit</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="privacy-note"><span class="privacy-dot"></span><div><b>Local demo mode</b><small>Data stays in this SQLite demo database.</small></div></div>
+        <div class="user-chip"><div class="user-avatar">SR</div><div class="user-meta"><b>Team Nexora</b><small>Round 2 prototype</small></div><span class="more">···</span></div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button id="mobileMenu" class="mobile-menu" type="button" aria-label="Open menu">☰</button>
+        <div class="breadcrumbs"><span>Workspace</span><span class="crumb-slash">/</span><b id="currentPageName">Overview</b></div>
+        <div class="topbar-right">
+          <span class="prototype-pill"><span></span> Prototype</span>
+          <label class="role-switch"><span>Act as</span><select id="roleSelect" aria-label="Demo role"><option>Creator</option><option>Manager</option><option>Reviewer</option><option>Admin</option></select></label>
+          <button class="avatar-button" type="button" title="Current demo role" id="roleAvatar">CR</button>
+        </div>
+      </header>
+      <section id="pageContent" class="page-content" aria-live="polite">
+        <div class="loading-state"><div class="loader"></div><p>Opening BrandLens workspace…</p></div>
+      </section>
+      <footer class="app-footer"><span>BrandLens · Team Nexora</span><span>Fictional seed data · Human approval required</span><button id="resetDemo" type="button">Reset demo</button></footer>
+    </main>
+  </div>
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

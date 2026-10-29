@@ -1,0 +1,111 @@
+[
+  {
+    "id": "TC-01",
+    "text": "Our skincare line is the No.1 choice.",
+    "expect": "Promotional claim needs an approved record"
+  },
+  {
+    "id": "TC-02",
+    "text": "We are the number one skin brand.",
+    "expect": "Promotional claim needs an approved record"
+  },
+  {
+    "id": "TC-03",
+    "text": "This is the #1 choice for everyone.",
+    "expect": "Promotional claim needs an approved record"
+  },
+  {
+    "id": "TC-04",
+    "text": "The best-in-class formula has arrived.",
+    "expect": "Promotional claim needs an approved record"
+  },
+  {
+    "id": "TC-05",
+    "text": "India's leading skincare option.",
+    "expect": "Promotional claim needs an approved record"
+  },
+  {
+    "id": "TC-06",
+    "text": "Guaranteed results for every customer.",
+    "expect": "Absolute or rapid-result wording"
+  },
+  {
+    "id": "TC-07",
+    "text": "A miracle solution for dry skin.",
+    "expect": "Absolute or rapid-result wording"
+  },
+  {
+    "id": "TC-08",
+    "text": "Visible results in one day.",
+    "expect": "Absolute or rapid-result wording"
+  },
+  {
+    "id": "TC-09",
+    "text": "Our serum is 25% more effective than alternatives.",
+    "expect": "Promotional claim needs an approved record"
+  },
+  {
+    "id": "TC-10",
+    "text": "Our serum is 40% more effective than leading brands.",
+    "expect": "Claim approval expired"
+  },
+  {
+    "id": "TC-11",
+    "text": "Hydration support for up to 8 hours.",
+    "expect": null,
+    "product_scope": "LumaSkin Hydration Gel",
+    "channel": "Instagram / Social"
+  },
+  {
+    "id": "TC-12",
+    "text": "The new moisturizer feels lightweight.",
+    "expect": null
+  },
+  {
+    "id": "TC-13",
+    "text": "SHOP NOW!!!",
+    "expect": "Tone may read as shouting"
+  },
+  {
+    "id": "TC-14",
+    "text": "THIS PRODUCT IS HERE",
+    "expect": "Tone may read as shouting"
+  },
+  {
+    "id": "TC-15",
+    "text": "Our users can find the product online.",
+    "expect": "Check customer-first terminology"
+  },
+  {
+    "id": "TC-16",
+    "text": "Our customers can find the product online.",
+    "expect": null
+  },
+  {
+    "id": "TC-17",
+    "text": "Our serum is 15% more effective.",
+    "expect": "Promotional claim needs an approved record"
+  },
+  {
+    "id": "TC-18",
+    "text": "Use plain language and explain the product clearly.",
+    "expect": null
+  },
+  {
+    "id": "TC-19",
+    "text": "Try this instantly; it is a miracle.",
+    "expect": "Absolute or rapid-result wording"
+  },
+  {
+    "id": "TC-20",
+    "text": "Only today: guaranteed hydration overnight results!!!",
+    "expect": "Absolute or rapid-result wording"
+  },
+  {
+    "id": "TC-21",
+    "text": "Hydration support for up to 8 hours.",
+    "product_scope": "LumaSkin Serum",
+    "channel": "Instagram / Social",
+    "expect": "Approved claim scope does not match"
+  }
+]
